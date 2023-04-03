@@ -35,7 +35,7 @@
   margin: 4rem 3rem;
 }
 
-.dogs-grid:hover{
+.dogs-grid:hover {
   border: 3px solid #84a98c;
 }
 .gallery-item {
@@ -63,4 +63,21 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+article {
+  margin: 0 3rem 3rem 3rem;
+}
+
+article h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin-bottom: 2rem;
+}
+
+article p {
+  font-size: 2rem;
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
 }
