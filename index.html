@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="./script.js"></script>
     <title>Página HTML estática</title>
   </head>
   <body>
@@ -49,7 +50,7 @@
     <article>
       <h2>Dog day 🐕</h2>
       <p>
-        Woof woof! Good morning, world! It's a beautiful day to be a dog. The
+        <span class="bark-text">Woof woof!</span> Good morning, world! It's a beautiful day to be a dog. The
         sun is shining, the birds are chirping, and the grass is nice and green.
         I can't wait to go on my morning walk and sniff out all the new scents
         in the neighborhood. As I walk, I can feel the excitement building
@@ -65,8 +66,9 @@
         other's company. As the day comes to an end and the sun sets, I'll
         settle down for the night, knowing that I had a perfect dog day. There's
         no better feeling than being a happy and loved dog, surrounded by the
-        people and things that bring me joy. Woof woof!
+        people and things that bring me joy. <span class="bark-text">Woof woof!</span>
       </p>
     </article>
+    <button onclick="toggleColor()">Make the dog bark</button>
   </body>
 </html>

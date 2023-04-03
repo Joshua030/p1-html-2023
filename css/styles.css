@@ -80,4 +80,29 @@ article p {
   font-size: 2rem;
   line-height: 1.3em;
   letter-spacing: 0.03em;
+  transition: all ease-in 0.4s;
+}
+
+.bark-text.active{
+  font-size: 3rem;
+  font-weight: 500;
+  color:green;
+}
+
+button{
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2f3e46;
+  background-color: #84a98c
+}
+
+button:hover{
+  color: #84a98c;
+  background-color:#2f3e46 ;
+  cursor: pointer;
 }
