@@ -1,0 +1,25 @@
+.main-container {
+  position: relative;
+  background-color: #cad2c5;
+  z-index: 1;
+  padding: 30px;
+}
+
+.main-container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -50px;
+  right: -50px;
+  bottom: 0;
+  border-radius: 0 0 50% 0%/0 0 100% 70%;
+  background-color: #84a98c;
+  z-index: -2;
+}
+
+.header-text {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+}
