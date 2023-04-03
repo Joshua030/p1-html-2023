@@ -83,13 +83,13 @@ article p {
   transition: all ease-in 0.4s;
 }
 
-.bark-text.active{
+.bark-text.active {
   font-size: 3rem;
   font-weight: 500;
-  color:green;
+  color: green;
 }
 
-button{
+button {
   margin: 0 auto;
   display: block;
   padding: 1rem 3rem;
@@ -98,11 +98,23 @@ button{
   font-size: 2rem;
   font-weight: 600;
   color: #2f3e46;
-  background-color: #84a98c
+  background-color: #84a98c;
 }
 
-button:hover{
+button:hover {
   color: #84a98c;
-  background-color:#2f3e46 ;
+  background-color: #2f3e46;
   cursor: pointer;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #201b19;
+  margin-top: 2rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
 }
